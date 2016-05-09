@@ -9,8 +9,8 @@
 %global with_python3 0
 
 Name:           pdc-client
-Version:        0.9.0
-Release:        3%{?dist}
+Version:        1.0.0
+Release:        1%{?dist}
 Summary:        Console client for interacting with Product Definition Center
 Group:          Development/Libraries
 License:        MIT
@@ -169,6 +169,8 @@ EOF
 
 
 %changelog
+* Thu May 12 2016 bliu <bliu@redhat.com> 1.0.0-1
+- 
 * Thu May 05 2016 bliu <bliu@redhat.com> 0.9.0-3
 - Change filtering arguments's underscore to minus to be consistent.
   (ycheng@redhat.com)
